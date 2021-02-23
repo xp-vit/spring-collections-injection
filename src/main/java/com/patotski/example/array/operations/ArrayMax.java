@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Order(2)
-@Component
+@Component("max")
 public class ArrayMax implements ArrayOperation {
 
     @Override

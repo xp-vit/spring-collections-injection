@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Order(0)
-@Component
+@Component("min")
 public class ArrayMin implements ArrayOperation {
 
     @Override

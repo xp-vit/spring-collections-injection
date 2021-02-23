@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Order(3)
-@Component
+@Component("sum")
 public class ArraySum implements ArrayOperation {
 
     @Override
